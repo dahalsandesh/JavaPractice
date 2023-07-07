@@ -11,6 +11,7 @@ public class DivisionException {
             int b= scan.nextInt();
             int ans= a/b;
             System.out.println(ans);
+            scan.close();
         }
         catch(ArithmeticException e){
             System.out.println(e.getMessage());
